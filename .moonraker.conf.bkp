@@ -44,3 +44,9 @@ channel = stable
 repo = fluidd-core/fluidd
 path = ~/fluidd
 
+[update_manager z_calibration]
+type = git_repo
+path = /home/cbabos/klipper_z_calibration
+origin = https://github.com/protoloft/klipper_z_calibration.git
+managed_services = klipper
+
